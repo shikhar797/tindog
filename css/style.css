@@ -1,0 +1,150 @@
+body{
+    background-color:#ff4c68;
+    font-family: "Montserrat";
+    color: #fff;
+}
+.container-fluid{
+    padding: 2% 10% ;
+}
+#font{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 3.0rem;
+    line-height: 1.5;
+
+}
+.navbar{
+    padding-bottom: 0 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.download-button{
+    margin: 5% 3% 0% 0;
+}
+
+.iphone-img{  
+    width: 55%;
+    right: 30%;
+    transform: rotate(25deg);
+}
+#features{
+    background-color: #fff;
+    padding: 15% 18%;
+    position: relative;
+    z-index: 1;
+}
+
+h3{
+    
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: black;
+}
+.features-box{
+    text-align: center;
+    padding: 4.5%;
+}
+.icon{
+    color:#ef8172;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+#testimonials{
+    background-color: #ef8172;
+   
+    text-align: center;
+}
+#testimonials img{
+    width: 10%;
+    border-radius: 50%;
+}
+#testimonials h2{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 1.7rem;
+    color: black;
+    line-height: 1.5;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+#press img{
+    width: 15%;
+    margin: 0px 20px 50px;
+}
+
+#pricing{
+    background-color: #fff;
+}
+.carousel-item{
+    padding: 9% 18%;
+}
+
+#pricing{
+    padding-top:5% ;
+    padding-bottom: 7%;
+    background-color: #fff;
+    color: black;
+    border: 1px solid rgba(0,0,0,0.125);
+    border-radius: 0.25rem;
+    
+}
+
+
+#cta{
+    padding-top: 5%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#footer {
+    color: black;
+    background-color: #fff;
+    padding-bottom: 5%;
+    margin: 0px;
+    text-align: center;
+    padding-top: 5%;
+    
+
+}
+#footer-logo{
+    font-size: 40px;
+    padding: 0px 40px;
+    padding-bottom: 50px;
+    color: black;
+}
+#footer-logo:hover{
+    color: grey;
+    
+}
+.name_link{
+    text-decoration: none;
+    color: grey;
+}
+
+@media (max-width: 1028px) {
+    #title {
+      text-align: center;
+    }
+    .iphone-img {
+      position: static;
+      transform: rotate(0);
+    }
+  }
+
+
